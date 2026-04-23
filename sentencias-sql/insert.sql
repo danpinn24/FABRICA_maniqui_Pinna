@@ -13,12 +13,13 @@ INSERT INTO detalle_cabeza (tipo_ojo, tipo_cabello) VALUES
 -- 3. Modelos de Pieza
 -- Nombres simplificados y usando solo los 2 materiales definidos
 INSERT INTO modelo_pieza (tipo, color, sexo, tamano, id_material, id_cabeza) VALUES 
-('Cabeza', 'Piel', 'Mujer', 'Adulto', 1, 1),
-('Torso', 'Blanco', 'Mujer', 'Adulto', 1, NULL),
-('Brazo Derecho', 'Blanco', 'Mujer', 'Adulto', 1, NULL),
-('Brazo Izquierdo', 'Blanco', 'Mujer', 'Adulto', 1, NULL),
-('Pierna Derecha', 'Blanco', 'Mujer', 'Adulto', 2, NULL),
-('Pierna Izquierda', 'Blanco', 'Mujer', 'Adulto', 2, NULL);
+('Cabeza', 'Piel', 'Mujer', 'S', 1, 1),
+('Torso', 'Blanco', 'Mujer', 'M', 1, NULL),
+('Torso', 'Negro', 'Hombre', 'L', 2, NULL),
+('Brazo Derecho', 'Blanco', 'Mujer', 'S', 1, NULL),
+('Brazo Izquierdo', 'Blanco', 'Mujer', 'S', 1, NULL),
+('Pierna Derecha', 'Blanco', 'Mujer', 'M', 2, NULL),
+('Pierna Izquierda', 'Blanco', 'Mujer', 'M', 2, NULL);
 
 -- 4. Piezas Físicas (10 registros por cada tipo)
 -- Cabezas (Modelo 1)
